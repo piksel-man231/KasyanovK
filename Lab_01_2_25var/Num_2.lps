@@ -8,8 +8,7 @@
       <Unit>
         <Filename Value="Num_2.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="15" Y="13"/>
+        <CursorPos X="3"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -20,13 +19,43 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="N_2_u1"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="31"/>
-        <CursorPos X="126" Y="56"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="38"/>
+        <CursorPos X="12" Y="61"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="n_2_u1.lfm"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="n_2_u1.pas"/>
+        <Caret Line="56" Column="3" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="n_2_u1.pas"/>
+        <Caret Line="23" Column="15" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="n_2_u1.pas"/>
+        <Caret Line="51" Column="3" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="n_2_u1.pas"/>
+        <Caret Line="62" Column="44" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="Num_2.lpr"/>
+        <Caret Line="5" Column="19"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

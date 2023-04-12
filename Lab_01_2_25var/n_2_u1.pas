@@ -46,13 +46,21 @@ end;
 
 procedure TForm1.Button1Click(Sender: TObject);
  var
-    min,max,i,x:Int64;
+    min,max,i,x,sum,t:Int64;
 begin
   min:=StrToInt(Edit1.Text);
   max:=StrToInt(Edit2.Text);
+  sum:=0;
   i:=min;
   x:=i mod 3;
   i:=i+3-x;
+  t:=i;
+  while t<max do {Это при условии что min и max не включены в список, если они включены в список то заменить i<max на i<max+1}
+         begin
+          sum:=sum+t;
+          t:=t+3;
+         end;
+  Memo1.Lines.Add('Summ : '+IntToStr(sum));
   while i<max do {Это при условии что min и max не включены в список, если они включены в список то заменить i<max на i<max+1}
         begin
          Memo1.Lines.Add(IntToStr(i));
