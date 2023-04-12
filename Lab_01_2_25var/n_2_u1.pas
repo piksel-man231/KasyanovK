@@ -57,13 +57,15 @@ begin
   t:=i;
   while t<max do {Это при условии что min и max не включены в список, если они включены в список то заменить i<max на i<max+1}
          begin
-          sum:=sum+t;
+          if (t mod 2=1) then
+             sum:=sum+t;
           t:=t+3;
          end;
   Memo1.Lines.Add('Summ : '+IntToStr(sum));
   while i<max do {Это при условии что min и max не включены в список, если они включены в список то заменить i<max на i<max+1}
         begin
-         Memo1.Lines.Add(IntToStr(i));
+         if (i mod 2=1) then
+            Memo1.Lines.Add(IntToStr(i));
          i:=i+3;
         end;
 end;
