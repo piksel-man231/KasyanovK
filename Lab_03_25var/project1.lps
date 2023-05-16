@@ -18,27 +18,24 @@
         <Filename Value="unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="65"/>
-        <CursorPos Y="83"/>
+        <TopLine Value="67"/>
+        <CursorPos Y="98"/>
+        <ComponentState Value="1"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="C:\lazarus\lcl\grids.pas"/>
-        <UnitName Value="Grids"/>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="11120"/>
-        <CursorPos Y="11137"/>
+        <TopLine Value="2943"/>
+        <CursorPos Y="2959"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
@@ -48,16 +45,19 @@
   <Debugging>
     <Watches>
       <Item>
-        <Expression Value="mid"/>
-      </Item>
-      <Item>
         <Expression Value="max"/>
       </Item>
       <Item>
-        <Expression Value="n"/>
+        <Expression Value="i"/>
       </Item>
       <Item>
-        <Expression Value="temp"/>
+        <Expression Value="index"/>
+      </Item>
+      <Item>
+        <Expression Value="sp0"/>
+      </Item>
+      <Item>
+        <Expression Value="sp1"/>
       </Item>
     </Watches>
   </Debugging>
