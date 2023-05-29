@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 1040
+  Left = 1137
   Height = 535
-  Top = 248
+  Top = 227
   Width = 622
   Align = alCustom
   BorderIcons = []

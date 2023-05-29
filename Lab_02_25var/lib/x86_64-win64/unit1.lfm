@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 2197
-  Height = 606
-  Top = -166
+  Left = 1040
+  Height = 535
+  Top = 248
   Width = 622
   Align = alCustom
   BorderIcons = []
   Caption = 'Form1'
-  ClientHeight = 606
+  ClientHeight = 535
   ClientWidth = 622
   Color = clForm
   LCLVersion = '2.2.6.0'
