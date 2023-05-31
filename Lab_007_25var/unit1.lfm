@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 1401
+  Height = 364
+  Top = 248
+  Width = 440
+  Caption = 'Form1'
+  ClientHeight = 364
+  ClientWidth = 440
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object E1: TEdit
+    Left = 24
+    Height = 23
+    Top = 24
+    Width = 220
+    TabOrder = 0
+  end
+  object E2: TEdit
+    Left = 182
+    Height = 23
+    Top = 64
+    Width = 220
+    TabOrder = 1
+  end
+  object B1: TButton
+    Left = 24
+    Height = 57
+    Top = 104
+    Width = 378
+    Caption = 'Волшебная кнопка по нажатию на которую все работает'
+    OnClick = B1Click
+    TabOrder = 2
+  end
+  object M1: TMemo
+    Left = 24
+    Height = 153
+    Top = 183
+    Width = 379
+    Lines.Strings = (
+      'M1'
+    )
+    TabOrder = 3
+  end
+end
