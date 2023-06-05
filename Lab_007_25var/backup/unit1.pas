@@ -57,9 +57,7 @@ end;
 procedure TForm1.B1Click(Sender: TObject);
 begin
   i:=StrToInt(E1.Text);
-  M1.Lines.Add('Staticheskiy VbIzov:A '+IntToStr(i));
   j:=StrToInt(E2.Text);
-  M1.Lines.Add('Staticheskiy VbIzov:B '+IntToStr(j));
   M1.Lines.Add('Staticheskiy VbIzov: '+FloatToStr(F1(i,j)));
   M1.Lines.Add('Dinamicheskiy VbIzov: '+FloatToStr(F2(i,j)));
 end;

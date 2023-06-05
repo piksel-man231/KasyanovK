@@ -8,8 +8,7 @@
       <Unit>
         <Filename Value="Func1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="13" Y="14"/>
+        <CursorPos X="24" Y="19"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -26,8 +25,16 @@
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="unit1.lfm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
+    <JumpHistory HistoryIndex="2">
       <Position>
         <Filename Value="Func1.lpr"/>
         <Caret Line="6" Column="4"/>
@@ -35,6 +42,10 @@
       <Position>
         <Filename Value="Func1.lpr"/>
         <Caret Line="9" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Func1.lpr"/>
+        <Caret Line="14" Column="13"/>
       </Position>
     </JumpHistory>
     <RunParams>

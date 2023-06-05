@@ -33,13 +33,13 @@ var
 implementation
 function F2(A,B:integer):Real;
 begin
-  if A>B then begin
+  if A<B then begin
   F2:=A*B/4;
   end;
   if A=B then begin
   F2:=-55;
   end;
-  if A<B then begin
+  if A>B then begin
   F2:=(B-5)/A
   end;
 end;
@@ -57,9 +57,7 @@ end;
 procedure TForm1.B1Click(Sender: TObject);
 begin
   i:=StrToInt(E1.Text);
-  M1.Lines.Add('Staticheskiy VbIzov:A '+IntToStr(i));
   j:=StrToInt(E2.Text);
-  M1.Lines.Add('Staticheskiy VbIzov:B '+IntToStr(j));
   M1.Lines.Add('Staticheskiy VbIzov: '+FloatToStr(F1(i,j)));
   M1.Lines.Add('Dinamicheskiy VbIzov: '+FloatToStr(F2(i,j)));
 end;
