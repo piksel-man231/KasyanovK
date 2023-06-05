@@ -11,7 +11,7 @@ var
   R:Real = 0;
 begin
   if A>B then begin
-     R:=(B/A)+7;
+     R:=(A/B)+7;
   end;
   if A=B then begin
      R:=-125;
