@@ -29,33 +29,39 @@ implementation
 {$R *.lfm}
 
 { TForm2 }
-Function f1(var m:TMas;var n:byte):byte;
+Function f1(var m:TMas; var n:byte): byte;
 var
-  i,j,k,sum,del:byte;
-  mid:real;
+  i, j, k, sum, del: byte;
+  mid: real;
 begin
-  mid:=0;
-  sum:=0;
-  k:=0;
-  for i:=0 to n do
-  begin
-     sum:=sum + m[i];
+  mid := 0;
+  sum := 0;
+  k := 0;
+
+  // Вычисляем сумму элементов массива
+  for i := 0 to (n-1) do begin
+    sum := sum + m[i];
   end;
-  mid:=sum/n;
-  del:= Round(mid);
-  i:=0;
-  while i<n do
-    begin
-      if m[i] = del then
-        begin
-          for j:=i to (n-1) do m[j]:=m[j+1];
-          dec(n);
-          inc(i);
-        end;
-      inc(i);
+
+  // Вычисляем среднее значение элементов массива
+  mid := sum / n;
+  del := Round(mid);
+
+  // Удаляем элементы равные среднему значению
+  i := 0;
+  while i < n do begin
+    if m[i] = del then begin
+      for j := i to (n-2) do begin
+        m[j] := m[j+1];
       end;
-  f1:=k;
+      dec(n);
+      dec(i);
+    end;
+    inc(i);
   end;
+
+  Result := del;
+end;
 
 end.
 

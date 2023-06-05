@@ -20,8 +20,8 @@
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="35"/>
-        <CursorPos X="17" Y="61"/>
+        <TopLine Value="33"/>
+        <CursorPos X="24" Y="60"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
