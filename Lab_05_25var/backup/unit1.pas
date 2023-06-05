@@ -67,7 +67,7 @@ var
 begin
   Count := 0;
   for i := 0 to Length(Movies) - 1 do
-    if Movies[i].Country = Country then Inc(Count);
+    if Pos(Country, Movies[i].Country) > 0 then Inc(Count);
   Result := Count;
 end;
 
@@ -93,10 +93,13 @@ begin
   end;
 
   // создаем массив уникальных стран
-  SetLength(Countries, Length(Movies));
+  SetLength(Countries, 0);
   for i := 0 to Length(Movies) - 1 do
-    if  pos(Countries[i], Movies[i].Country)<1 then
-      Countries[i] := Movies[i].Country;
+  begin
+    if IndexOfStr(Movies[i].Country, Countries) = -1 then
+      SetLength(Countries, Length(Countries) + 1);
+      Countries[Length(Countries) - 1] := Movies[i].Country;
+  end;
 
   // определяем страну, в которой снято больше всего фильмов
   MaxCount := -1;
